@@ -5,7 +5,7 @@
 function Request(string $method, array $args = [])
     {
       
-      $api = "1727027236:AAE1n6hLGrloh_JcV_My3tm3godB5u7j7xU";
+      $api = "1640998583:AAGgPzLQncckSQk5Avy0qpTxFAwzxYxzJzk";
         $url = "https://api.telegram.org/bot". $api ."/".$method;
 $ch = curl_init();
 curl_setopt($ch,CURLOPT_URL,$url);
